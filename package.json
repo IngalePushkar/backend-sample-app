@@ -8,6 +8,7 @@
     "build": "ttsc",
     "dev": "ts-node-dev --respawn --compiler ttypescript src/app.ts",
     "start": "node dist/app.js",
+    "postinstall": "ttsc",
     "prepare": "husky install"
   },
   "repository": {
@@ -30,7 +31,7 @@
     "@types/morgan": "^1.9.3",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0",
-    "commitizen": "^4.2.4",
+    "commitizen": "^1.0.4",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.25.2",
